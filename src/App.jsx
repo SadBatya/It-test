@@ -1,6 +1,7 @@
 import "./App.css";
 import { useState } from "react";
 import clown from './assets/clown.gif'
+
 function App() {
   const [visible, setVisible] = useState(false)
 
@@ -13,10 +14,10 @@ function App() {
   return (
     <>
       <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
-        <button onClick={changeVisible} className="btn">Посмотреть тестовое ♥</button>
+        <button onClick={changeVisible} className="btn">Потестить бота ♥</button>
       </a>
       {visible ? <>
-        <div className="text">А что вы хотели за 30к? :D</div> 
+        <div className="text">800$ и будет ссылка на бота:)</div> 
         <img src={clown} alt="для работодателей" />
       </>: ''}
     </>
