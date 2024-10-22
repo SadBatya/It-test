@@ -17,7 +17,7 @@ function App() {
         <button onClick={changeVisible} className="btn">Потестить бота ♥</button>
       </a>
       {visible ? <>
-        <div className="text">800$ и будет ссылка на бота:)</div> 
+        <div className="text">УПС...Error! Что-то пошло не так :c</div> 
         <img src={clown} alt="для работодателей" />
       </>: ''}
     </>
